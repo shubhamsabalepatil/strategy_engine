@@ -1,0 +1,9 @@
+<form method="POST">
+    {% csrf_token %}
+    {% for key, value in initial_data.items %}
+        <label for="{{ key }}">{{ key }}:</label>
+        <input type="text" id="{{ key }}" name="{{ key }}" value="{{ value }}">
+    {% endfor %}
+    <button type="submit">Update</button>
+</form>
+

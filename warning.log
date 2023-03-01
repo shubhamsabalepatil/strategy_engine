@@ -1,0 +1,56 @@
+Homepage was accessed at 2023-02-14 15:52:43.646690 hours!
+Homepage was accessed at 2023-02-14 15:53:45.339185 hours!
+Unauthorized: /Strategy_type
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Method Not Allowed: /gettocken/
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sable\MyPycharmProjects\QCA\qca_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sable\MyPycharmProjects\QCA\qca_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sable\MyPycharmProjects\QCA\strategy_engine\instance\views.py", line 223, in hello_reader
+    user = request.user if request.user.is_authenticated else 'AnonymousUser'
+                           ^^^^^^^
+NameError: name 'request' is not defined
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sable\MyPycharmProjects\QCA\qca_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sable\MyPycharmProjects\QCA\qca_env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\sable\MyPycharmProjects\QCA\qca_env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view instance.views.hello_reader didn't return an HttpResponse object. It returned None instead.
+Unauthorized: /strategy/
